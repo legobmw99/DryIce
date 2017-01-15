@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dryice",
+  "name": "Dry Ice",
+  "description": "Adds Dry Ice to Minecraft!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["legobmw99"],
+  "credits": "il_Vassilon, for the idea",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

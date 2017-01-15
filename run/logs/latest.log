@@ -1,0 +1,103 @@
+[19:40:41] [Client thread/INFO]: Setting user: Player398
+[19:40:45] [Client thread/INFO]: LWJGL Version: 2.9.4
+[19:40:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dry Ice
+[19:40:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:40:49] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[19:40:49] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:40:49] [Thread-9/INFO]: OpenAL initialized.
+[19:40:50] [Sound Library Loader/INFO]: Sound engine started
+[19:40:54] [Client thread/INFO]: Created: 16x16 textures-atlas
+[19:40:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dry Ice
+[19:40:55] [Client thread/INFO]: SoundSystem shutting down...
+[19:40:55] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:40:55] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:40:55] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[19:40:55] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:40:55] [Thread-11/INFO]: OpenAL initialized.
+[19:40:55] [Sound Library Loader/INFO]: Sound engine started
+[19:40:58] [Client thread/INFO]: Created: 512x512 textures-atlas
+[19:40:59] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[19:41:10] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[19:41:10] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[19:41:10] [Server thread/INFO]: Generating keypair
+[19:41:10] [Server thread/INFO]: Preparing start region for level 0
+[19:41:11] [Server thread/INFO]: Changing view distance to 12, from 10
+[19:41:11] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[19:41:12] [Server thread/INFO]: Player398[local:E:2f42b2de] logged in with entity id 124 at (-246.99578429550732, 63.0, -303.9178046215335)
+[19:41:12] [Server thread/INFO]: Player398 joined the game
+[19:41:12] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@6c4c20c4[id=4878bcfc-e338-372f-9bb9-254339edb686,name=Player398,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.func_181037_M(Minecraft.java:2915) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:130) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_102]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_102]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_102]
+[19:41:20] [Server thread/INFO]: Saving and pausing game...
+[19:41:20] [Server thread/INFO]: Saving chunks for level 'Icy'/Overworld
+[19:41:20] [Server thread/INFO]: Saving chunks for level 'Icy'/Nether
+[19:41:20] [Server thread/INFO]: Saving chunks for level 'Icy'/The End
+[19:41:49] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[19:41:51] [Client thread/INFO]: [CHAT] survival, creative, adventure, spectator
+[19:41:52] [Client thread/INFO]: [CHAT] survival, creative, adventure, spectator
+[19:41:53] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[19:41:53] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[19:41:53] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[19:41:55] [Client thread/INFO]: [CHAT] randomTickSpeed, reducedDebugInfo
+[19:41:57] [Server thread/INFO]: [Player398: Game rule has been updated]
+[19:41:57] [Client thread/INFO]: [CHAT] Game rule has been updated
+[19:42:04] [Server thread/INFO]: Saving and pausing game...
+[19:42:04] [Server thread/INFO]: Saving chunks for level 'Icy'/Overworld
+[19:42:04] [Server thread/INFO]: Saving chunks for level 'Icy'/Nether
+[19:42:04] [Server thread/INFO]: Saving chunks for level 'Icy'/The End
+[19:43:07] [Server thread/INFO]: Saving and pausing game...
+[19:43:07] [Server thread/INFO]: Saving chunks for level 'Icy'/Overworld
+[19:43:07] [Server thread/INFO]: Saving chunks for level 'Icy'/Nether
+[19:43:07] [Server thread/INFO]: Saving chunks for level 'Icy'/The End
+[19:43:34] [Server thread/INFO]: Saving and pausing game...
+[19:43:34] [Server thread/INFO]: Saving chunks for level 'Icy'/Overworld
+[19:43:34] [Server thread/INFO]: Saving chunks for level 'Icy'/Nether
+[19:43:34] [Server thread/INFO]: Saving chunks for level 'Icy'/The End
+[19:44:03] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[19:44:04] [Server thread/INFO]: [Player398: Set own game mode to Survival Mode]
+[19:44:04] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[19:44:17] [Server thread/INFO]: Player398 tried to swim in lava
+[19:44:17] [Client thread/INFO]: [CHAT] Player398 tried to swim in lava
+[19:44:21] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[19:44:22] [Server thread/INFO]: [Player398: Set own game mode to Creative Mode]
+[19:44:22] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[19:44:25] [Server thread/INFO]: [Player398: Set the time to 1000]
+[19:44:25] [Client thread/INFO]: [CHAT] Set the time to 1000
+[19:44:32] [Server thread/INFO]: Saving and pausing game...
+[19:44:32] [Server thread/INFO]: Saving chunks for level 'Icy'/Overworld
+[19:44:32] [Server thread/INFO]: Saving chunks for level 'Icy'/Nether
+[19:44:32] [Server thread/INFO]: Saving chunks for level 'Icy'/The End
+[19:46:39] [Server thread/INFO]: Player398 has just earned the achievement [Taking Inventory]
+[19:46:39] [Client thread/INFO]: [CHAT] Player398 has just earned the achievement [Taking Inventory]
+[19:48:42] [Client thread/INFO]: Stopping!
+[19:48:42] [Client thread/INFO]: SoundSystem shutting down...
+[19:48:42] [Server thread/INFO]: Stopping server
+[19:48:42] [Server thread/INFO]: Saving players
+[19:48:42] [Server thread/INFO]: Saving worlds
+[19:48:42] [Server thread/INFO]: Saving chunks for level 'Icy'/Overworld
+[19:48:42] [Server thread/INFO]: Saving chunks for level 'Icy'/Nether
+[19:48:42] [Server thread/INFO]: Saving chunks for level 'Icy'/The End
+[19:48:42] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:48:42] [Client Shutdown Thread/INFO]: Stopping server
+[19:48:42] [Client Shutdown Thread/INFO]: Saving players
+[19:48:42] [Client Shutdown Thread/INFO]: Saving worlds
+[19:48:42] [Client Shutdown Thread/INFO]: Saving chunks for level 'Icy'/Overworld
